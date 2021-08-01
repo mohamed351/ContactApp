@@ -1,0 +1,24 @@
+.item-flex{
+    display: flex;
+}
+.spliter{
+    border-right: 1px solid #aaa ;
+    height: 60px;
+    padding: 0 10px;
+}
+.info-Card{
+    padding-left: 0.5rem;
+}
+.info-Card p{
+    padding: 0;
+    margin: 0;
+}
+.info-Card p:nth-child(2) , p:nth-child(3){
+    color: #aaa;
+    font-size: 13px;
+}
+.item-flex-space-between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
